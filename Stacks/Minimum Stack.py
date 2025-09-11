@@ -44,7 +44,7 @@ Idea:
     This way, at every point, we know the minimum value we have seen till then
 
     Time complexity: O(1) for each function
-    Space Complexity: O(2n) => O(n)
+    Space Complexity: O(2n) => O(n), where n is the maximum number of elements that would be in the stack
 
 """
 
