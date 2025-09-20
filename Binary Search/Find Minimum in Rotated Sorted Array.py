@@ -104,14 +104,14 @@ def solution(nums):
     return ans
 
 
-# nums1 = [1,2,3,4,5,6]
-# print(solution(nums1))
+nums1 = [1,2,3,4,5,6]
+print(solution(nums1))
 
-# nums2 = [4,5,6,1,2,3]
-# print(solution(nums2))
+nums2 = [4,5,6,1,2,3]
+print(solution(nums2))
 
-# nums3 = [2,3,4,5,6,1]
-# print(solution(nums3))
+nums3 = [2,3,4,5,6,1]
+print(solution(nums3))
 
 nums4 = [6,1,2,3,4,5]
 print(solution(nums4))
