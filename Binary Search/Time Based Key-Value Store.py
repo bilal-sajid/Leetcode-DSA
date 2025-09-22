@@ -69,7 +69,7 @@ class TimeMap:
         # print(self.hashmap)
 
     def get(self, key, timestamp):
-        answer = "Empty"
+        answer = ""
         if not self.hashmap[key]:
             return answer
         
