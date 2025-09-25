@@ -88,3 +88,5 @@ def solution(head):
         l1.next = l2
         l2.next = l1_next_node
         l1, l2 = l1_next_node, l2_next_node
+
+
