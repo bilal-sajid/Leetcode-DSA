@@ -79,8 +79,8 @@ def solution2(s, t):
     
     character_freq = [0] * 26
     for i in range(len(s)):
-        character_freq[ord('z') - ord(s[i])] += 1
-        character_freq[ord('z') - ord(t[i])] -= 1
+        character_freq[ord(s[i]) - ord('a')] += 1
+        character_freq[ord(t[i]) - ord('a')] -= 1
     
     for frequency in character_freq:
         if frequency != 0:
