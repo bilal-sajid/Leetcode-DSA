@@ -6,6 +6,6 @@ Your solution must run in O(log(m+n)) time.
 """
 
 """
-Retried - Do it Again!
+Again
 
 """
